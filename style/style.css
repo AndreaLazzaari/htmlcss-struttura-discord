@@ -24,10 +24,18 @@ header{
     border: dashed black;
 }
 
+.larghezza-contenitore{
+    width: 70%;
+}
+
+.altezza-contenitore{
+    height: 65%;
+}
+
+
 .contenitore-giallo{
     background-color: #daa520;
     height: 50%;
-    width: 70%;
 }
 
 .contenitore-blu{
@@ -47,12 +55,12 @@ header{
 
 .contenitore-rosa{
     background-color: pink;
-    height: 50%;
-    width: 30%;
+    width: 25%;
+   
 }
 
 .contenitore-azzurro{
     background-color: azure;
-    height: 50%;
     width: 50%;
+    
 }
