@@ -18,10 +18,10 @@ footer{
     background-color: black;
 }
 
-/* hr{
+hr{
     color: white;
     border: solid;
-} */
+}
 
 .flex{
     display: flex;
@@ -48,7 +48,7 @@ footer{
     height: 50%;
 }
 
-.contenitore-blu{
+.sfondo-blu{
     background-color: #00008b;
     padding: 4rem 0;
 }
@@ -60,8 +60,8 @@ footer{
 
 }
 
-main > .contenitore-bianco,
-.contenitore-grigio{
+main > .sfondo-bianco,
+.sfondo-grigio{
     height: 650px
 }
 
@@ -81,7 +81,7 @@ main > .contenitore-bianco,
     
 }
 
-.contenitore-grigio{
+.sfondo-grigio{
     background-color: #d3d3d3;
 }
 
@@ -100,5 +100,9 @@ main > .contenitore-bianco,
 
 .contenitore-acqua{
     background-color: #20b2aa;
-    flex-basis: 15%;
+    flex-basis: calc(100% / 4);
+}
+
+.contenitore-blu{
+    
 }
