@@ -22,6 +22,10 @@ hr{
     /* border: solid; */
 }
 
+ul{
+    list-style-type: none;
+}
+
 .flex{
     display: flex;
     justify-content: center;
@@ -45,6 +49,10 @@ hr{
 .contenitore-giallo{
     background-color: #daa520;
     height: 50%;
+}
+
+.logo{
+    display: inline-block;
 }
 
 .sfondo-blu{
@@ -104,6 +112,6 @@ main > .sfondo-bianco,
 }
 
 .contenitore-blu{
-    height: 50%;
+    height: 90px;
     background-color: #7fffd4;
 }
