@@ -14,13 +14,12 @@ header{
 
 footer{
     height: 600px;
-    display: flex;
     background-color: black;
 }
 
 hr{
     color: white;
-    border: solid;
+    /* border: solid; */
 }
 
 .flex{
@@ -91,6 +90,7 @@ main > .sfondo-bianco,
 
 .contenitore-nero{
     width: 990px;
+    padding: 0.5rem 2rem 1.7rem 3rem;
 }
 
 .contenitore-rosso{
@@ -100,9 +100,10 @@ main > .sfondo-bianco,
 
 .contenitore-acqua{
     background-color: #20b2aa;
-    flex-basis: calc(100% / 4);
+    flex-basis: 15%;
 }
 
 .contenitore-blu{
-    
+    height: 50%;
+    background-color: #7fffd4;
 }
