@@ -15,12 +15,13 @@ header{
 footer{
     height: 600px;
     display: flex;
+    background-color: black;
 }
 
-hr{
+/* hr{
     color: white;
     border: solid;
-}
+} */
 
 .flex{
     display: flex;
@@ -89,14 +90,15 @@ main > .contenitore-bianco,
 }
 
 .contenitore-nero{
-    background-color: black;
-    width: 800px;
+    width: 990px;
 }
 
 .contenitore-rosso{
     background-color: #f08080;
+    flex-basis: 40%;
 }
 
-.contenitore-verde{
+.contenitore-acqua{
     background-color: #20b2aa;
+    flex-basis: 15%;
 }
