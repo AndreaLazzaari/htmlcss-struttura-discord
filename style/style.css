@@ -9,13 +9,15 @@
 header{
     height: 90px;
     background-color: #add8e6;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contenitore{
-    
+   
     background-color: #daa520;
     border: solid black;
-    height: 60%;
+    height: 50%;
     width: 70%;
 }
