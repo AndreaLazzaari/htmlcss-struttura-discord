@@ -10,14 +10,49 @@ header{
     height: 90px;
     background-color: #add8e6;
     display: flex;
+}
+   
+
+.flex{
+    display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
-.contenitore{
-   
+.border-dashed{
+    border: dashed black;
+}
+
+.contenitore-giallo{
     background-color: #daa520;
-    border: solid black;
     height: 50%;
     width: 70%;
+}
+
+.contenitore-blu{
+    background-color: #00008b;
+    height: 500px;
+}
+
+.contenitore-viola{
+    background-color: #ee82ee;
+    height: 70%;
+    width: 55%;
+}
+
+.contenitore-bianco{
+    height: 500px
+}
+
+.contenitore-rosa{
+    background-color: pink;
+    height: 50%;
+    width: 30%;
+}
+
+.contenitore-azzurro{
+    background-color: azure;
+    height: 50%;
+    width: 50%;
 }
