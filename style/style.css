@@ -47,20 +47,25 @@ header{
     background-color: #ee82ee;
     height: 70%;
     width: 55%;
+
 }
 
 .contenitore-bianco{
     height: 500px
 }
 
+.contenitore-box-colorata{
+    height: 70%;
+}
+
 .contenitore-rosa{
     background-color: pink;
-    width: 25%;
+    width: 20%;
    
 }
 
 .contenitore-azzurro{
-    background-color: azure;
-    width: 50%;
+    background-color: #1e90ff;
+    width: 80%;
     
 }
