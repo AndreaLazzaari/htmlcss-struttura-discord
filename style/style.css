@@ -50,22 +50,33 @@ header{
 
 }
 
-.contenitore-bianco{
-    height: 500px
+main > .contenitore-bianco,
+.contenitore-grigio{
+    height: 800px
 }
 
 .contenitore-box-colorata{
-    height: 70%;
+    height: 90%;
 }
 
 .contenitore-rosa{
-    background-color: pink;
-    width: 20%;
+    background-color: #ffc0cb;
+    width: 40%;
    
 }
 
 .contenitore-azzurro{
     background-color: #1e90ff;
-    width: 80%;
+    width: 60%;
     
+}
+
+.contenitore-grigio{
+    background-color: #d3d3d3;
+}
+
+.contenitore-verde{
+    background-color: #228b22;
+    width: 100%;
+    height: 90%;
 }
