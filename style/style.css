@@ -9,12 +9,13 @@
 header{
     height: 90px;
     background-color: #add8e6;
+    
 }
 
 .contenitore{
-    margin: 0 auto;
+    
     background-color: #daa520;
     border: solid black;
     height: 60%;
-    width: 20%;
+    width: 70%;
 }
