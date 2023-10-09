@@ -1,7 +1,20 @@
 /* RESET */
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px ;
+    padding: 0px;
     box-sizing: border-box;
-    
+
+}
+
+header{
+    height: 90px;
+    background-color: #add8e6;
+}
+
+.contenitore{
+    margin: 0 auto;
+    background-color: #daa520;
+    border: solid black;
+    height: 60%;
+    width: 20%;
 }
